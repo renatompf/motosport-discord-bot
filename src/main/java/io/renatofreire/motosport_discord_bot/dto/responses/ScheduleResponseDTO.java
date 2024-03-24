@@ -18,7 +18,7 @@ public record ScheduleResponseDTO(
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append(circuit.toString());
+        sb.append(circuit.toString()).append("\n");
         sb.append("\n\t").append(formatField("First Practice:", firstPractice));
         sb.append("\n\t").append(formatField("Second Practice:", secondPractice));
         sb.append("\n\t").append(formatField("Third Practice:", thirdPractice));

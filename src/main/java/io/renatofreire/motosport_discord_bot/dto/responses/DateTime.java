@@ -16,7 +16,7 @@ public record DateTime(
         String timeFormatted = String.format("%-" + FIELD_WIDTH + "s", "Time:") + time;
 
         // Concatenate the formatted fields
-        return dateFormatted + "\n\t" + timeFormatted+ "\n\t";
+        return "\n" + dateFormatted + "\n\t" + timeFormatted + "\n\t";
     }
 
 

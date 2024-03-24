@@ -1,4 +1,4 @@
-package io.renatofreire.motosport_discord_bot.model;
+package io.renatofreire.motosport_discord_bot.listeners;
 
 import discord4j.core.event.domain.Event;
 import org.slf4j.Logger;

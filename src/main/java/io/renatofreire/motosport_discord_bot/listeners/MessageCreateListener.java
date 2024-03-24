@@ -1,7 +1,6 @@
-package io.renatofreire.motosport_discord_bot.messages;
+package io.renatofreire.motosport_discord_bot.listeners;
 
 import discord4j.core.event.domain.message.MessageCreateEvent;
-import io.renatofreire.motosport_discord_bot.model.EventListener;
 import io.renatofreire.motosport_discord_bot.service.FormulaOneService;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;

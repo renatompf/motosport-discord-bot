@@ -1,4 +1,4 @@
-package io.renatofreire.motosport_discord_bot.messages;
+package io.renatofreire.motosport_discord_bot.listeners;
 
 import discord4j.core.object.entity.Message;
 import discord4j.core.spec.EmbedCreateSpec;
