@@ -13,8 +13,6 @@ public record DriverDTO(
 ) {
     @Override
     public String toString() {
-        final int FIELD_WIDTH = 15; // Width for field names
-
         // Format and align each field
         String codeFormatted = code;
         String numberFormatted = number;

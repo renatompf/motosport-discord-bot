@@ -6,9 +6,7 @@ import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.resource.NoResourceFoundException;
 
-import java.time.Instant;
 import java.time.LocalDate;
-import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
@@ -208,10 +206,6 @@ public class FormulaOneService {
     private LocalDate convertStringIntoDate(String date) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern(DATE_PATTERN);
         return LocalDate.parse(date, formatter);
-    }
-
-    private static LocalDate convertInstantToDate(@NonNull Instant instant) {
-        return instant.atZone(ZoneId.systemDefault()).toLocalDate();
     }
 
 }

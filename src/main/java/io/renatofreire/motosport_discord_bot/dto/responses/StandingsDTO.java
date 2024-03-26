@@ -45,8 +45,6 @@ public record StandingsDTO(
 
     @Override
     public String toString() {
-        final int FIELD_WIDTH = 15; // Width for field names
-
         StringBuilder sb = new StringBuilder();
         sb.append(formatField("Drivers:", drivers));
         sb.append("\n\t").append(formatField("Constructors:", constructors));
